@@ -1,0 +1,7 @@
+docker:-
+
+build img
+docker build -t myjavaprogram .
+
+run container
+docker run myjavaprogram
